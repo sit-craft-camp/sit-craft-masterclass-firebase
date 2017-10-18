@@ -1,13 +1,13 @@
-export default async function firebase() {
+export default async function fb() {
   const firebase = await import('firebase')
 
   const config = {
-    apiKey: '-----------------------------',
-    authDomain: '-----------------------------',
-    databaseURL: '-----------------------------',
-    projectId: '-----------------------------',
-    storageBucket: '-----------------------------',
-    messagingSenderId: '-----------------------------'
+    apiKey: "AIzaSyDajr4CSA17F6UMGHgJudrKkd_QupzkVD4",
+    authDomain: "sit-craft-masterclass-firebase.firebaseapp.com",
+    databaseURL: "https://sit-craft-masterclass-firebase.firebaseio.com",
+    projectId: "sit-craft-masterclass-firebase",
+    storageBucket: "",
+    messagingSenderId: "697825638118"
   }
 
   try {
