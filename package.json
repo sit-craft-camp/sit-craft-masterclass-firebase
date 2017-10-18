@@ -1,0 +1,19 @@
+{
+  "name": "sit-craft-masterclass-firebase",
+  "version": "1.0.0",
+  "main": "entry.js",
+  "repository": "https://github.com/sit-craft-camp/sit-craft-masterclass-firebase",
+  "author": "KANISORN S. <firstziiz.k@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "dependencies": {
+    "firebase": "^4.5.2",
+    "next": "^4.1.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
