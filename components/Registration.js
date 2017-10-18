@@ -10,6 +10,10 @@ class Registration extends React.Component {
   onSubmit = async () => {
     const fb = await firebase()
     const database = fb.database().ref('/users').push(this.state)
+    this.setState({
+      name: '',
+      surname: ''
+    })
   }
 
   render() {
